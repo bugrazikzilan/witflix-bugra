@@ -1,0 +1,276 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+}
+
+header img {
+  width: 10%;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+.topright {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.topright img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-right: 15px;
+}
+.input-icon {
+  margin-left: -1.7rem;
+}
+.checked {
+  color: red;
+}
+
+.rating {
+  padding-left: 10px;
+}
+
+.imdb {
+  padding-left: 4px;
+}
+
+.main-movie {
+  width: 80;
+  height: 600px;
+  border: 1px solid black;
+  padding-left: 20px;
+  margin: 10px;
+  font-size: 12px;
+  align-content: center;
+  background-image: url('thegame1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+.main-movie p {
+  width: 50%;
+}
+h1 {
+  font-size: 30px;
+}
+.movie-numbers {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.on-alti {
+  background-color: white;
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.play {
+  background-color: red;
+  border-radius: 5px;
+  padding: 7px;
+  padding-left: 20px;
+  color: white;
+  border: none;
+}
+
+.red {
+  font-size: 12px;
+}
+
+.popular-movies div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.movie-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  overflow: auto;
+  padding-right: 10px;
+  gap: 1rem;
+}
+
+.movie-item {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  
+}
+.movie-item1 {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background-image: url(./climax.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color:White
+}
+
+.movie-item2 {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background-image: url(./godfather1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color:rgb(250, 249, 249)
+}
+
+.movie-item3 {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background-image: url(./lordoftherings.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(250, 249, 249)
+}
+
+.movie-itemr1 {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background-image: url(./casino.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(250, 249, 249)
+}
+
+.movie-itemr2 {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background-image: url(./2fast2furious.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(250, 249, 249)
+}
+
+.movie-itemr3 {
+  border: 1px solid black;
+  min-width: 400px;
+  height: 200px;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background-image: url(./oppenheimer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(250, 249, 249)
+}
+
+.movie-about {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.recommendations div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 10px;
+  margin-top: 2rem;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 70%;
+}
+
+.footer-bottom p {
+  padding-top: 10px;
+}
+.footer-bottom nav a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 10px;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.social-icons img {
+  width: 25px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.stores img {
+  width: 8vw;
+}
+.stores img:last-child {
+  width: 7vw;
+  padding-bottom: 7px;
+}
+.right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+  margin-left: 20px;
+}
